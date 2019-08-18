@@ -1,0 +1,226 @@
+	body {
+		font-family: 'PT Serif', serif;
+		font-size: 1.5em;
+		padding-top: 50px;
+	}
+
+	.sub-header {
+		padding-bottom: 10px;
+		border-bottom: 1px solid #eee;
+	}
+
+	.navbar-fixed-top {
+		border: 0;
+	}
+
+	.navbar-brand {
+		letter-spacing: 4px;
+	}
+
+	.image {
+		padding-top: 5px;
+	}
+
+	.sidebar {
+		display: none;
+	}
+	@media (min-width: 768px) {
+		.sidebar {
+			position: fixed;
+			top: 51px;
+			bottom: 0;
+			left: 0;
+			z-index: 1000;
+			display: block;
+			padding: 20px;
+			overflow-x: hidden;
+			overflow-y: auto;
+			background-color: #f5f5f5;
+			border-right: 1px solid #eee;
+		}
+	}
+
+	.nav-sidebar {
+		margin-right: -21px;
+		margin-bottom: 20px;
+		margin-left: -20px;
+	}
+
+	.nav-sidebar > li > a {
+		padding-right: 20px;
+		padding-left: 20px;
+		color: #000;
+		letter-spacing: 2px
+	}
+
+	.nav-sidebar > .active > a,
+	.nav-sidebar > .active > a:hover,
+	.nav-sidebar > .active > a:focus {
+		color: #fff;
+		background-color: #F02E2E;
+	}
+	.nav-sidebar:target {
+		background-color: #F02E2E;
+		color: #fff;
+	}
+
+	.main {
+		padding: 20px;
+	}
+	@media (min-width: 768px) {
+		.main {
+			padding-right: 40px;
+			padding-left: 40px;
+		}
+	}
+	.main .page-header {
+		margin-top: 0;
+	}
+
+
+	input[type="file"] {
+		display:none;
+	}
+
+	#upload-photo-label {
+		border: 1px solid #ccc;
+		border-radius: 7px;
+		padding: 8px;
+		margin: 10px 0;
+		font-size: 10px;
+	}
+
+	#upload-photo-label:active {
+		background: #ccc;
+	}
+
+	#welcome {
+		font-style: italic;
+		font-size: 1.5em;
+		letter-spacing: 3px;
+	}
+
+	.username, .email {
+		letter-spacing: 3px;
+	}
+
+	.bold {
+		font-weight: bold;
+	}
+
+	.form {
+		display: inline;
+	}
+	.glyphicon {
+		float: right;
+		color: #F02E2E;
+	}
+	.logout {
+		float: right;
+	}
+	.table-bordered td, .table-bordered th {
+		border: 1px solid black !important;
+	}
+
+	.table-unbordered td, .table-unbordered th {
+		border: 0px solid black !important;
+	}
+
+	.like{
+	background-image:url(../music/pictures/like.png);
+		background-size: cover;
+	height: 40px;
+	width: 45px;
+	border: 0px;
+	}
+
+	.like:hover{
+	background-position: bottom;
+	background-size: cover;
+		border: 0px;
+	}
+
+	.like:active{
+	background-size: cover;
+	background-position: center;
+	}
+
+	.dislike{
+	background-image:url(../music/pictures/dislike.png);
+	background-size: cover;
+	height: 40px;
+	width: 45px;
+	border: 0px;
+	}
+
+	.dislike:hover{
+	background-position: bottom;
+	background-size: cover;
+	border: 0px;
+	}
+
+	.dislike:active{
+	background-size: cover;
+	background-position: center;
+	}
+
+	.delete {
+		float: left;
+		margin-right: -15px;
+	}
+
+	.update {
+		float: right;
+		margin-left: -15px;
+	}
+
+	.bottompad {
+		margin-bottom: 20px;
+	}
+
+	.space {
+		margin-top: 20px;
+	}
+
+	li > .edit {
+		float:right;
+	}
+
+	.formcontainer {
+		border: 2px solid rgba(192,192,192,1) !important;
+		padding: 30px;
+		margin: 9.5em 2em;
+		border-radius: 20px;
+		color: grey;
+	}
+
+	.formdiv {
+		text-align: center;
+
+	}
+
+	.formdiv2 {
+		text-align: center;
+	}
+
+	.btn {
+		color: grey !important;
+	}
+
+	.searchbar {
+		 margin-top: 1%;
+		 margin-right: 1%;
+		 margin-left: 1%;
+	 }
+
+	 .backbutton {
+		 margin-right: 40%;
+	 }
+
+	 .input-group {
+	 	white-space: nowrap;
+	 }
+
+	 .searchbutton {
+	 	margin-top: -.2em;
+	 }
